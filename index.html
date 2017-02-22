@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <!--RWD Meta-->
+        <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">-->
+
+        <title>Phone</title>
+
+        <!--Reset CSS-->
+        <!--<link rel="stylesheet" href="assets/css/reset.min.css">-->
+
+        <!--Bootstrap CSS-->
+        <!--<link rel="stylesheet" href="assets/bootstrap-3.3.7/css/bootstrap.min.css">-->
+
+        <!--CSS-->
+        <link rel="stylesheet" href="assets/css/index.css">
+
+        <!--Font_family-->
+
+        <!--jQuery-->
+        <script src="assets/jquery/jquery-3.1.1.min.js"></script>
+
+        <!--Bootstrap JS-->
+        <!--<script src="assets/bootstrap-3.3.7/js/bootstrap.js"></script>-->
+
+        <!--JavaScript-->
+        <script src="assets/js/index.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <div class="phone">
+            <div class="top">
+                <div class="camera"></div>
+            </div>
+            <div class="screen">
+                <div class="pages">
+
+                    <div class="page page1">
+                        <h2>INPUT</h2>
+                        <p>Name<br>
+                            <input type="text" id="id" value="">
+                        </p>
+                        <p>Nickname<br>
+                            <input type="text" id="nickname" value="">
+                        </p>
+                        <p>Phone<br>
+                            <input type="text" id="tele" value="" onkeyup="value=value.replace(/[^\d]/g,'') " maxlength="10">
+                        </p>
+                        <button class="next next1">Next</button>
+                    </div>
+
+                    <div class="page page2">
+                        <h2>OUTPUT</h2>
+                        <p>Name：<text id="id2"></text></p>
+                        <p>Nickname：<text id="nickname2"></text></p>
+                        <p>Phone：<text id="tele2"></text></p>
+                        <button class="next next2">Next</button>
+                    </div>
+
+                    <div class="page page3">
+                        <h2>INFORMATION</h2>
+                        <p><a href="https://goo.gl/zPdgE1" target="_blank">Facebook</a></p>
+                        <p><a href="https://goo.gl/D6fZUq" target="_blank">Github</a></p>
+                        <button class="next next3">Next</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="button">▢</div>
+            </div>
+        </div>
+
+        <h3 class="status">
+            The "Best" iphone we've ever made！
+        </h3>
+
+        <h2 class="phonename"></h2>
+
+        <div class="buttons">
+            <button class="i5">iphone5</button>
+            <button class="i5s">iphone5s</button>
+            <button class="i6">iphone6</button>
+            <button class="i6s">iphone6 Plus</button>
+            <button class="wiggle">Wiggle</button>
+            <button class="turn">Turn Around</button>
+        </div>
+        
+        <audio src="assets/fonts/click14.wav" class="audio-player"></audio>
+        <audio src="assets/fonts/click18.wav" class="audio-player"></audio>
+        <audio src="assets/fonts/click23.wav" class="audio-player"></audio>
+        <audio src="assets/fonts/phonevi.mp3" class="audio-player"></audio>
+        
+    </body>
+
+</html>
